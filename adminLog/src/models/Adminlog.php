@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2016 成都蜀美网络技术有限公司
  * @license http://www.shuwon.com/
  */
-namespace xww\models;
+namespace xww\adminLog\models;
 
 use Yii;
 use yii\db\ActiveRecord;

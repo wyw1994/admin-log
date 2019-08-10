@@ -1,7 +1,7 @@
 <?php
 
 
-namespace xww\models;
+namespace xww\adminLog\models;
 
 /**
  * This is the model class for table "{{%common_log}}".

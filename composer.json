@@ -19,22 +19,13 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": ">=7.0",
-    "yiisoft/yii2": ">=2.0.6"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "~4.8.35||~5.7"
+    "php": ">=7.0"
   },
   "autoload": {
-    "classmap": [
-      "Mobile_Detect.php"
-    ],
-    "psr-0": {
-      "yii-log\\mobiledetectlib": "namespaced/"
-    },
     "psr-4": {
       "xww\\adminLog\\": "admin/src/",
-      "xww\\ip\\": "ip/src/"
+      "xww\\ip\\": "ip/src/",
+      "Detection\\": "mobiledetectlib/namespaced/"
     }
   },
   "config": {
