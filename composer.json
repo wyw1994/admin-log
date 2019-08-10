@@ -1,0 +1,43 @@
+{
+  "name": "wyw1994/yii-log",
+  "description": "Yii2 yii admin-log",
+  "keywords": [
+    "yii2",
+    "admin-log"
+  ],
+  "homepage": "https://github.com/wyw1994/yii-log",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "support": {
+    "source": "https://github.com/wyw1994/yii-log"
+  },
+  "authors": [
+    {
+      "name": "xww",
+      "email": "xww@shuwon.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": ">=2.0.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.8.35||~5.7"
+  },
+  "autoload": {
+    "classmap": [
+      "Mobile_Detect.php"
+    ],
+    "psr-0": {
+      "yii-log\\mobiledetectlib": "namespaced/"
+    },
+    "psr-4": {
+      "xww\\adminLog\\": "admin/src/",
+      "xww\\ip\\": "ip/src/"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  }
+}
